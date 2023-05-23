@@ -1,7 +1,7 @@
 module.exports = {
   client: 'postgresql',
   connection: {
-    database: 'knexjs',
+    database: 'knexjss',
     user: 'postgres'
     },
   pool: {

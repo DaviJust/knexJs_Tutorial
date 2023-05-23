@@ -4,10 +4,10 @@ exports.up = function(knex) {
         table.text('bio');
         table.text('description');
         table.integer('user_id').unique().unsigned();
-        table.foregin('user_id')
-        .references('user_id')
+        table.foreign('user_id')
+        .references('users.id')
         .onDelete('CASCADE')
-        .onUpdate('CASCADE')
+        .onUpdate('CASCADE');
     });
 
 };
