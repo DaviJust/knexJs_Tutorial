@@ -1,0 +1,21 @@
+{
+  "name": "knexjs_tutorial",
+  "version": "1.0.0",
+  "description": "Este repositório fornece uma introdução ao Knex.js, uma biblioteca de construção de consultas SQL para Node.js. Ele mostrará como usar o Knex para se conectar a um banco de dados PostgreSQL usando Express e Node.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
